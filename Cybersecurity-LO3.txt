@@ -1,5 +1,3 @@
-The markdown-exclusive formatting has been removed while keeping the content intact:
-
 1. Name and explain at least 4 Security Design Principles.
 
 Security design principles guide the development of secure systems. Examples include "Least Privilege," where users are granted the minimum access necessary for their tasks; "Separation of Duties," which divides tasks among multiple people to prevent fraud or error; "Fail-Safe Defaults," ensuring default states are secure; and "Defense in Depth," employing multiple layers of security to mitigate risks.
