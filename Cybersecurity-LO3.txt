@@ -1,0 +1,93 @@
+The markdown-exclusive formatting has been removed while keeping the content intact:
+
+1. Name and explain at least 4 Security Design Principles.
+
+Security design principles guide the development of secure systems. Examples include "Least Privilege," where users are granted the minimum access necessary for their tasks; "Separation of Duties," which divides tasks among multiple people to prevent fraud or error; "Fail-Safe Defaults," ensuring default states are secure; and "Defense in Depth," employing multiple layers of security to mitigate risks.
+
+2. Explain the process of the Security Engineering Lifecycle.
+
+The Security Engineering Lifecycle involves stages like initiation, where security requirements are identified; development/acquisition, focusing on secure design and sourcing; implementation, applying security controls; operations/maintenance, which involves monitoring and updates; and disposal, ensuring secure decommissioning of systems.
+
+3. Explain the importance of the Trusted Computing Base concept.
+
+The Trusted Computing Base (TCB) represents the critical elements of a system responsible for enforcing security policies. It ensures that only authorized actions occur and is foundational to achieving system security and integrity.
+
+4. Explain some of the Storage Security Concerns.
+
+Storage security concerns include the risk of removable media spreading malware, malicious consumption of storage capacity, and physical destruction or data recovery from discarded drives. Protecting data at rest with encryption and access controls is critical to mitigate these risks.
+
+5. Explain some of the Application and Utility Software Security Concerns.
+
+Applications and utilities often face threats such as malware infection, insecure downloads, and user ignorance regarding software sources. These can be mitigated by using trusted software sources, maintaining regular updates, and employing antivirus programs.
+
+6. Explain the difference between Discretionary Access Control (DAC) and Mandatory Access Control (MAC).
+
+Mandatory Access Control (MAC) is a security model where access to resources is strictly governed by centralized policies based on classifications and security clearances. Unlike Discretionary Access Control (DAC), where individual resource owners decide access permissions, MAC ensures access is only granted when a subject’s security clearance matches the classification of the object. This centralized approach makes MAC more secure as it prevents unauthorized access due to human error or intentional misuse.
+
+7. Explain the process of Enterprise Security Architecture (ESA).
+
+ESA is a strategic framework that integrates security into organizational processes. It includes defining priorities, identifying security requirements, and designing unified controls that support the organization's goals.
+
+8. Name and explain Enterprise Security Architecture (ESA) Building Blocks.
+
+ESA building blocks include boundary control services to regulate data flow, access control services for identity verification, integrity services to maintain data accuracy, cryptographic services for confidentiality, and auditing/monitoring services for oversight and threat detection.
+
+9. Name and explain some of the Critical Security Controls recorded by sans.org.
+
+Critical Security Controls include inventorying authorized/unauthorized devices, maintaining secure configurations, conducting vulnerability assessments, controlling administrative privileges, and monitoring audit logs. These help organizations prioritize and mitigate security risks.
+
+10. Name and explain some of the Virtualization Security Risks.
+
+Virtualization risks include guest OSs escaping their sandbox to access the host or other guests, creating vulnerabilities for data theft or compromise. Centralizing multiple VMs on a single host can also make the host a single point of failure. Resource exhaustion is another risk if one VM monopolizes shared resources. Mitigation requires robust isolation mechanisms, hypervisor patching, and resource monitoring.
+
+11. Name and explain some of the Architecture Vulnerabilities.
+
+Architectural vulnerabilities include single points of failure, lack of redundancy, insecure design choices, and failure to address potential database issues. These vulnerabilities can lead to system instability or breaches. Incorporating redundancy, security monitoring, and ongoing design reviews can help mitigate these issues.
+
+12. Name and explain some of the Server-Based Vulnerability Mitigations.
+
+Server-based vulnerabilities can be mitigated by employing firewalls, conducting regular vulnerability assessments, implementing strong authentication mechanisms, and establishing disaster recovery plans to ensure continuous operation and resilience.
+
+13. Name and explain some of the Cloud Services Risk Mitigations.
+
+Cloud services risks can be mitigated by encrypting data in transit and at rest, enforcing strong access controls with multi-factor authentication, reviewing SLAs to ensure robust incident response and continuity plans, and preparing contingency strategies for potential breaches.
+
+14. Name and explain some of the Industrial Control Systems Risk Mitigations.
+
+Industrial Control Systems risks can be mitigated by redesigning networks to include layered security, timely application of patches, implementing role-based access controls, using intrusion detection systems, and ensuring strong physical security for critical components.
+
+15. Name and explain some of the Risks from Remote Computing.
+
+Remote computing introduces risks such as device theft, malware propagation, and identity spoofing. These can be mitigated with secure authentication methods, VPNs for secure connections, and restricted access to critical systems for remote devices.
+
+16. Name and explain some of the Web-Based System Vulnerability Mitigations.
+
+Mitigations for web-based vulnerabilities include implementing CAPTCHAs, encrypting communication channels, sanitizing user inputs to prevent injection attacks, using web application firewalls, and hardening operating systems and server configurations.
+
+17. Explain the purpose of non-repudiation and achievement method.
+
+Non-repudiation ensures that actions or communications cannot be denied by the parties involved. This is typically achieved using digital signatures, which verify the authenticity of data, and audit trails, which record transaction histories for accountability.
+
+18. Explain the concept of Crime Prevention Through Environmental Design.
+
+Crime Prevention Through Environmental Design (CPTED) incorporates security into the physical layout of spaces to deter criminal activities. This includes elements like controlled access points, adequate lighting, visible security features, and effective surveillance.
+
+19. A software development company is designing a new application for a government client that handles sensitive information. The client requires the application to follow strict security principles, including Mandatory Access Control (MAC) instead of Discretionary Access Control (DAC). As the security architect, explain the difference between MAC and DAC and describe how the choice of MAC affects the overall security design of the application.
+
+Mandatory Access Control (MAC) is a security model where access to resources is strictly governed by centralized policies based on classifications and security clearances. Unlike Discretionary Access Control (DAC), where individual resource owners decide access permissions, MAC ensures access is only granted when a subject’s security clearance matches the classification of the object. For the government client, choosing MAC means the application must incorporate robust mechanisms to classify data, enforce security labels, and restrict access based on policy. This enhances overall security by reducing insider threats and ensuring compliance with strict regulatory requirements.
+
+20. A large enterprise is moving part of its infrastructure to a cloud-based environment, raising concerns about virtualization security risks. Analyze the specific virtualization security risks the company should be aware of during this transition and recommend mitigations that can help ensure the security of their virtualized infrastructure.
+
+Virtualization security risks during a cloud migration include the potential for virtual machines (VMs) to escape their sandbox environment and access other VMs or the host system, creating vulnerabilities for data theft or compromise. The centralization of multiple VMs on a single host also makes the host a single point of failure. To mitigate these risks, enterprises should implement strong isolation mechanisms, ensure proper access controls, regularly patch hypervisors, and employ monitoring tools to detect anomalous VM behavior.
+
+21. A manufacturing company is introducing an Industrial Control System (ICS) to automate its production lines. However, this system is susceptible to certain cybersecurity risks, particularly because it operates in a distributed environment. Discuss the potential risks associated with ICS and provide recommendations for mitigating these risks to ensure the security and availability of the production systems.
+
+Industrial Control Systems (ICS) face risks such as improper input validation, unauthorized remote access, weak authentication, malware infiltration through removable media, and denial-of-service (DoS) attacks. These vulnerabilities can disrupt production lines and compromise sensitive operational data. Mitigation strategies include redesigning networks to incorporate firewalls and VPNs, employing layered network topologies, implementing strong role-based access controls, customizing intrusion detection systems (IDS), and ensuring timely application of security patches.
+
+22. A financial institution is updating its Enterprise Security Architecture (ESA) to address emerging threats and vulnerabilities in its IT environment. Discuss the key building blocks of ESA that the institution should focus on and explain how they should implement these blocks to ensure a comprehensive security posture.
+
+The financial institution should focus on five key ESA building blocks: boundary control services, access control services, integrity services, cryptographic services, and auditing and monitoring services. Boundary control ensures regulated data flow between systems, while access control restricts resource access to authorized users and processes. Integrity services maintain data accuracy through measures like antivirus protection and checksums. Cryptographic services ensure confidentiality via encryption, and auditing/monitoring services provide insights into potential threats. Implementing these blocks requires a unified framework, adherence to industry standards, and consistent reviews to address evolving threats.
+
+23. A cloud service provider is concerned about the potential vulnerabilities in its storage systems, especially when managing multi-tenant environments. Analyze the key storage security concerns that the provider should address and propose security controls to mitigate risks related to unauthorized access and data breaches in the cloud environment.
+
+Key storage security concerns in multi-tenant cloud environments include unauthorized access to tenant data, data breaches, and insufficient data isolation. To address these risks, the cloud provider should implement strong data segregation mechanisms, encrypt data at rest and in transit, and use robust access controls, such as multi-factor authentication and role-based permissions. Continuous monitoring and regular security audits are necessary to identify and address vulnerabilities. Employing secure APIs and ensuring proper configuration of storage environments further enhances security.

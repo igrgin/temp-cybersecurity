@@ -1,0 +1,65 @@
+1. Explain the Least Privilege concept.  
+The Least Privilege concept ensures that users are granted only the access permissions necessary to perform their job functions and nothing more. This minimizes potential damage from accidents or malicious actions. Permissions must not be "set and forget" but reviewed periodically, with expiration times set for accounts. IT personnel often use separate accounts for regular tasks and administrative functions to further reduce risks.
+
+2. Explain the Separation of Duties concept and importance related to cybersecurity.  
+Separation of Duties (SoD) prevents one individual from having control over all critical aspects of a process, reducing the risk of fraud and error. For example, backup and restore operations, policy creation and enforcement, or data entry and deletion are separated among different roles. This reduces the chance of abuse and increases oversight.
+
+3. Explain the Job Rotation concept and importance related to cybersecurity.  
+Job Rotation involves regularly moving employees between roles to prevent them from gaining excessive familiarity or control over specific systems. This practice deters insider threats, ensures continuity during absences, and cross-trains employees. Mandatory vacations also serve as an oversight mechanism.
+
+4. Explain the difference between Perimeter and Internal security.  
+Perimeter security focuses on protecting the external boundaries of an organization, using mechanisms like fences, gates, CCTV, and intrusion detection systems. Internal security operates inside the facility, protecting sensitive areas through card readers, mantraps, locks, guards, and safes. Layered defense ensures an attacker must bypass multiple safeguards to access critical assets.
+
+5. Explain the Layered Protection concept and importance related to cybersecurity.  
+Layered Protection employs multiple levels of security measures, such as combining perimeter barriers, secure facility controls, and area-specific protections. This approach ensures redundancy, making it harder for attackers to compromise all layers and providing resilience if one layer fails.
+
+6. Explain the importance of Physical Access Logs.  
+Physical access logs are crucial for tracking who enters and exits secure areas. They include information like the individual’s name, access time, location, and entry portal. Logging unsuccessful access attempts adds another layer of monitoring and is essential for audits and investigations.
+
+7. Explain the importance of Data Loss Prevention (DLP) systems.  
+DLP systems monitor, detect, and prevent unauthorized attempts to access or transmit sensitive data, whether it is at rest, in motion, or in use. They safeguard intellectual property, ensure compliance, and protect against insider threats. Advanced DLP features, such as abnormal email activity detection, enhance organizational data security.
+
+8. Explain the difference between Whitelisting and Blacklisting. Name some advantages and disadvantages for both.  
+Whitelisting permits only pre-approved applications or processes, providing robust security but potentially being overly restrictive. Blacklisting blocks known malicious entities but can miss new or unknown threats. Whitelisting is generally more secure but less flexible, while blacklisting offers more operational freedom at a higher risk.
+
+9. Explain the importance of Configuration Management Database (CMDB).  
+A CMDB is a central repository of data about IT assets and their relationships. It ensures that configuration changes are tracked and managed systematically, reducing downtime, ensuring compliance, and maintaining system integrity.
+
+10. Explain the purpose of Configuration Management Policy.  
+Configuration Management Policies define how IT assets are identified, tracked, and modified. They ensure consistency, version control, and prevent unauthorized changes that could compromise security or operational stability.
+
+11. Explain the importance of Patch Management Systems.  
+Patch management systems automate the application of updates to software and hardware, addressing vulnerabilities promptly. This reduces the risk of exploitation and enhances system reliability while ensuring compliance with security policies.
+
+12. Explain the importance of Change Management.  
+Change management maintains the confidentiality, integrity, and availability of systems by documenting and controlling IT changes. It minimizes risks from poorly implemented updates and ensures smooth transitions during upgrades or modifications.
+
+13. Explain the process of Change Management.  
+The process includes requesting a change, obtaining approval, communicating the change to stakeholders, documenting the details, testing the update, implementing it in production, and reporting the results. Security impact assessments and baselines are critical components.
+
+14. Explain the importance of Incident Management.  
+Incident management ensures a quick, organized response to security incidents, minimizing damage and restoring normal operations. It helps organizations identify weaknesses, comply with regulatory requirements, and enhance their security posture.
+
+15. Explain the process of Incident Management.  
+The process involves detecting a problem, evaluating its scope, mitigating damage, recovering systems, learning lessons from the incident, and reporting details to relevant stakeholders. Proactive measures prevent recurrence.
+
+16. Explain the process of Evidence Collection.  
+Evidence collection begins by securing the scene and prioritizing volatile evidence, such as data in RAM. It involves creating exact copies of data for analysis, properly tagging and documenting evidence, and ensuring a chain of custody to preserve admissibility in court.
+
+17. Explain the concept of Chain of Custody.  
+The chain of custody is the documentation trail that tracks the handling of evidence from collection to court presentation. It ensures accountability and prevents tampering, including details like timestamps, handlers, and storage conditions.
+
+18. A financial services company has experienced several internal fraud incidents due to employees having excessive access rights to critical systems. As the security manager, analyze how the company should implement the concept of least privilege and separation of duties to minimize the risk of internal fraud and improve overall security.  
+To mitigate internal fraud, the company should enforce the Least Privilege principle, granting employees access only to the resources required for their roles. Periodic reviews of access permissions should be conducted to ensure compliance. Simultaneously, implementing Separation of Duties ensures that no single employee controls an entire critical process, such as data entry and approval, reducing the risk of fraud. For example, different employees should handle backup operations and data restoration, creating checks and balances in system access.
+
+19. A global manufacturing firm is implementing a new data loss prevention (DLP) system to prevent sensitive information from being leaked. However, the system generates many false positives, causing workflow interruptions. As a security analyst, discuss how the company can fine-tune its DLP system and balance security with operational efficiency while reducing the number of false positives.  
+To reduce false positives, the DLP system should be fine-tuned by calibrating its sensitivity levels and creating more specific policies tailored to the organization's workflows. Regularly updating classification rules and involving department-specific feedback ensures the system aligns with real-world data handling practices. Machine learning-based DLP tools can help identify patterns, reducing unnecessary alerts. Employee training on data classification and handling can further refine the system’s effectiveness while maintaining operational efficiency.
+
+20. A large e-commerce company is managing a rapid increase in cyber threats and has decided to implement continuous security monitoring across its network. Explain the process of continuous security monitoring and how it can help the company detect and respond to potential threats in real-time, especially considering the growing sophistication of cyberattacks.  
+Continuous security monitoring involves actively collecting and analyzing data from network devices, applications, and user activities in real-time. Tools like SIEM systems aggregate and correlate logs to detect unusual behavior. Proactive monitoring enables the company to identify and mitigate threats early, reducing response times. Regular updates to detection systems and integration with threat intelligence ensure the company stays ahead of evolving attack vectors.
+
+21. A healthcare organization is undergoing a system update, and the IT team needs to ensure that all security patches are applied properly. However, during the update process, a critical security patch was missed, resulting in a vulnerability. Analyze the importance of patch management and recommend how the organization should improve its patch management system to prevent such oversights in the future.  
+Patch management is critical for mitigating vulnerabilities and protecting systems from exploitation. To improve the process, the healthcare organization should automate patch deployment using a patch management system that tracks and prioritizes updates. A patch testing environment should be established to ensure new patches are compatible with critical systems before deployment. Regular audits and patch compliance reporting should be implemented to identify and address missed updates promptly.
+
+22. A government agency recently faced a security breach, which led to an investigation. The agency's security team is tasked with collecting digital evidence for legal proceedings. Describe the proper process for evidence collection and chain of custody in this scenario to ensure that the evidence remains admissible in court.  
+The evidence collection process begins with securing the breach site to prevent tampering. Volatile data, such as information in RAM, should be captured first, followed by imaging storage devices. The original evidence should remain unaltered, and analysis should occur on copies. Proper labeling, documentation, and storage are essential, with all actions recorded in a chain of custody log. The log must include timestamps, individuals handling the evidence, and storage conditions, ensuring authenticity and legal admissibility. 

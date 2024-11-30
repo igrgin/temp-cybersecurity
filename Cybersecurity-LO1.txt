@@ -1,0 +1,76 @@
+Cybersecurity
+
+Learning outcome 1
+
+1. Explain the process of Security and Business Alignment and give some examples.
+	Security and business alignment ensures security supports business goals. It involves assessing risks, implementing policies and controls, and monitoring effectiveness. Examples include securing data during mergers or aligning IT policies with financial regulations.
+
+2. Explain CISO role in the organization.
+	The CISO protects business information, ensures policies are followed, leads incident response team, supports governance, and balances security needs with business goals.
+	
+3. Name and explain some CISO responsibilities.
+	The CISO manages security budget, creates security policies, trains staff, ensure compliance to laws, regulations, and policies, promotes security awareness, and measures security effectiveness.
+
+4. Name and explain Security Goal Categories.
+	Security goals are divided into strategic, tactical, and operational categories. Strategic goals focus on long-term alignment with business objectives, like creating organization-wide policies. Tactical goals address medium-term actions, such as developing a disaster recovery plan. Operational goals focus on short-term, practical tasks like conducting risk assessments,
+
+5. Explain the difference between Due Care and Due Diligence.
+	Due care means acting responsibly to avoid risks, like training employees on security policies. Due diligence involves thoroughly researching and assessing risks to make informed decisions, such as running background checks or evaluating security systems.
+
+6. What is Compliance. Explain the purpose of different kind of compliance.
+	Compliance means following laws, regulations, and standards to ensure the company is operating legally and ethically. Regulatory compliance involves meeting external laws, like GDPR for data protection, while internal compliance is about following self-imposed policies that help align operations with the company’s goals.
+
+7. What is Data Breach. Give some examples.
+	A data breach happens when secure information is accessed without permission. Examples include unauthorized exposure of customer personal information or an insider leaking sensitive company data. These breaches can lead to fines, reputation damage, and other serious consequences.
+
+8. Explain the value of Security documentation.
+	Security documentation is crucial because it gives a clear framework for how security measures are applied in the organization. It helps define roles, supports compliance, and acts as a reference to ensure that everyone knows what is expected of them regarding security.
+
+9. Name some security document types and explain them.
+	Policies outline high-level intentions, like defining how sensitive information should be handled. Standards are more specific and set mandatory requirements, such as requiring a certain level of encryption. Procedures provide step-by-step guidance for tasks, and baselines define the minimum level of security that needs to be in place for systems or processes.
+
+10.Explain the difference between Strategic, Tactical and Operational planing.
+	Strategic planning deals with long-term security objectives, like defining security policies for the next few years.
+	Tactical planning is medium-term and might involve setting up a disaster recovery strategy over the next year.
+	Operational planning focuses on short-term tasks, like conducting a specific security test or ensuring updates are completed in the next few months.
+
+11.Explain the objectives of Security Policy.
+	The objectives of a security policy are to inform employees about duties and responsibilities, define an organization’s security goals, and outline a computer system's security requirements. It’s about making sure everyone knows what to do and why it matters.
+
+12.What is Risk and why we need risk management?
+	Risk is the chance that something negative will happen when a threat exploits a vulnerability. Risk management is necessary to identify, assess, and address those risks to protect assets, maintain operations, and avoid interruptions that could hurt the business.
+
+13.Name some of Risk Assessment Methodologies and explain them.
+	Some common risk assessment methodologies include OCTAVE, which is designed to identify vulnerabilities and address cyber threats, and CRAMM, which systematically evaluates risk to help reduce it. Another approach is Failure Modes and Effect Analysis (FMEA), which looks at possible points of failure to improve safety and security.
+
+14.Explain the difference between Qualitative and Qunatitative risk assessments.
+	A qualitative risk assessment uses descriptive terms to understand risk levels, like labeling them as high, medium, or low.
+
+	A quantitative risk assessment uses numbers to evaluate risks, such as calculating the financial impact or probability of an event happening. Both are useful, depending on what kind of detail is needed.
+
+15.Name the types of response to risk and explain them.
+	Responses to risk include avoidance, which means eliminating the risk entirely, mitigation, which reduces the impact of the risk, transfer, which shifts responsibility to another party like an insurance provider, and acceptance, which involves recognizing the risk and deciding to handle it because the impact or probability is low.
+
+16.Explain the purpose of risk prioritization.
+	The purpose of risk prioritization is to decide which risks need to be addressed first. By ranking risks based on their likelihood and potential impact, resources can be effectively directed to deal with the most critical threats before worrying about smaller ones.
+
+17.Explain the process of Threat Modelling.
+	Threat modeling is the process of identifying assets, assessing threats and vulnerabilities, and then implementing controls to reduce risks. It helps understand potential attack vectors and apply measures to reduce these threats. For example, the STRIDE method categorizes threats like spoofing or tampering to guide security decisions.
+
+18.Explain the DREAD risk rating system.
+	The DREAD risk rating system helps prioritize threats by evaluating five factors: Damage (how severe the impact is), Reproducibility (how easily it can be repeated), Exploitability (how easily it can be launched), Affected Users (how many people it affects), and Discoverability (how easy it is to discover).
+
+19.A multinational company is developing a new cloud-based service. During the security review, the team identifies a potential risk of unauthorized access to sensitive customer data. Discuss how the company should apply the principles of the CIA triad (confidentiality, integrity, and availability) to mitigate this risk and protect the data.
+	To ensure confidentiality, the company should encrypt customer data both at rest and in transit and enforce strong access controls to prevent unauthorized access. For integrity, mechanisms like checksums or hash functions should be used to detect and prevent data tampering. To maintain availability, the company should implement redundancy measures such as backup systems and robust incident response plans to ensure customer data is accessible even during outages or attacks.
+
+20.A financial services firm has undergone rapid growth, and the alignment between its security strategy and business objectives is becoming unclear. As the newly appointed CISO, describe how you would approach the process of security and business alignment to ensure that security measures support the firm's goals.
+	As CISO, I would begin by assessing risks and identifying critical assets that support business objectives. I would collaborate with business leaders to align security policies and controls with growth strategies. This includes raising awareness about security’s role in achieving goals and continuously monitoring and adapting security measures to meet the firm’s evolving needs.
+
+21.An international e-commerce company is preparing for the implementation of GDPR. They have identified several potential areas of non-compliance related to customer data handling. Evaluate the steps the company must take to comply with GDPR and discuss the role of the CISO in ensuring that these steps are executed effectively.
+	The company must classify and protect personal data, ensure collection is limited to lawful purposes, and secure data through encryption. It must also develop processes for breach reporting and ensure compliance with data retention rules. The CISO is responsible for leading these efforts, appointing a Data Protection Officer, and ensuring all staff are trained in GDPR requirements.
+
+22.A manufacturing firm has experienced a series of cyberattacks, including a major data breach. The board of directors is concerned about their legal obligations and the potential impact on their reputation. As a security consultant, explain how the concepts of due care and due diligence apply to this scenario and suggest how the company can improve its security governance practices.
+	Due care involves taking reasonable steps to protect data, such as training employees and using strong firewalls. Due diligence requires actively assessing and mitigating risks, like conducting vulnerability assessments. To improve governance, the firm should clearly define security roles, regularly audit security practices, and integrate security planning into business strategies.
+
+23.A large technology company has just completed a comprehensive risk assessment. The assessment reveals several high-priority risks, but the company is unsure how to prioritize and respond to these risks. Discuss how the company should use qualitative and quantitative risk assessments to prioritize risks and select appropriate risk responses (e.g., mitigate, accept, transfer, or avoid).
+	The company can use qualitative assessments to categorize risks by severity and likelihood, like labeling them as critical or minor. Quantitative assessments provide numerical insights, such as calculating the financial impact of each risk. High-priority risks should be mitigated first if they are likely and impactful. Risks with minimal impact might be accepted, while unlikely but costly risks could be transferred through insurance.

@@ -1,0 +1,65 @@
+1. Explain the purpose of Asset Management. 
+	Asset management ensures that an organization identifies, monitors, and maintains all of its assets, such as data, hardware, and software, throughout their lifecycle. Its primary purpose is to protect these assets from loss, unauthorized access, or misuse, while optimizing their value for operational and financial benefit. It also helps in compliance with regulations and enhances organizational accountability.
+
+2. Name and explain at least 4 Asset Management roles.  
+	The Data Owner is responsible for defining the sensitivity of data, determining how it should be used, and ensuring compliance with legal and organizational policies. The Data Custodian is tasked with implementing and enforcing access controls and protection measures as specified by the Data Owner. The System Owner, who manages the hardware or system hosting the data, focuses on maintaining functionality and ensuring security. Lastly, the Auditor periodically reviews asset management practices to verify adherence to policies and regulatory requirements, promoting transparency and accountability.
+
+3. Explain the process and purpose of Data Classification. 
+	Data classification organizes data into categories based on its value, sensitivity, and criticality to the organization. This process involves identifying data, assigning ownership, determining accountability, valuing the data, and applying classification labels. The purpose is to ensure appropriate levels of security and accessibility, minimizing risks of unauthorized access or data breaches.
+
+4. Explain the difference between Military and Commercial Classification Schemes. 
+	Military classification schemes are rigid and hierarchical, often including levels like Top Secret and Confidential, with focus on national security. Commercial classification schemes are flexible, tailored to business needs, and might include categories like Corporate Confidential, Trade Secrets, or Client Information. The former prioritizes state security, while the latter emphasizes protecting corporate interests.
+
+5. Explain the concept of Private Data Ownership.
+	Private data ownership asserts that individuals own their personal data. Organizations managing such data act as custodians, obligated to protect it against unauthorized use while balancing business utility and legal compliance. Ethical considerations and privacy laws guide the handling of this data to prevent misuse and maintain trust.
+
+6. Explain the Collection Limitations. 
+	Collection limitations ensure that data is gathered only when it is necessary, relevant, and aligned with the intended purpose. These limitations prevent the excessive or irrelevant accumulation of personal data, reducing privacy risks and helping organizations comply with laws like GDPR.
+
+7. Explain the difference between Data Collectors, Controllers, and Processors.
+	Data Collectors are entities that gather data and decide on its intended purpose, ensuring its collection aligns with the organization's needs and regulations. Data Controllers, on the other hand, determine the specific purposes and methods for processing the collected data, holding responsibility for its compliance and ethical handling. Data Processors work under the direction of Data Controllers to manage the data in accordance with defined instructions, ensuring that security measures are properly implemented during processing.
+
+8. Explain the purpose of Retention Policies. 
+	Retention policies establish how long assets, particularly data, are kept before disposal. They balance business needs, compliance requirements, and storage optimization. These policies protect organizations from legal liabilities while ensuring that valuable data remains accessible for necessary operations.
+
+9. Explain the difference between Data and Media Retention. 
+	Data retention focuses on preserving information for compliance and operational needs. Media retention pertains to the physical or digital storage devices that hold the data, ensuring their usability and security over time.
+
+10. Explain the concept of Personnel Retention.
+	Personnel retention emphasizes keeping skilled employees within an organization. It focuses on preventing the loss of critical knowledge and expertise, often through strategies like knowledge sharing, rotation of duties, and fostering multidisciplinary teams.
+
+11. Explain the difference between Scoping and Tailoring in Security Implementation. 
+	Scoping determines the range of systems and processes a security measure applies to, while tailoring adjusts these measures to fit specific organizational needs. Scoping ensures coverage, and tailoring ensures relevance and efficiency.
+
+12. Explain the difference between Data at Rest, Use, and Transit.  
+	Data at Rest refers to information stored on media, such as hard drives or backup systems, and is secured through encryption and strict access controls to prevent unauthorized access or theft. Data in Use describes information actively being processed, often in volatile memory like RAM, which is susceptible to attacks such as cold boots and requires protection through strategies like memory encryption or secure enclaves. Data in Transit involves information moving across networks, where encryption methods such as SSL or TLS are employed to safeguard it from interception or tampering.
+
+13. Explain the process and purpose of a Data Handling Policy.
+	A data handling policy governs how data is securely managed throughout its lifecycle. This includes storage, processing, and destruction. Its purpose is to protect data from unauthorized access, ensure compliance, and maintain data quality and privacy.
+
+14. Explain the difference between Marking and Labeling.
+	Marking involves assigning a sensitivity level to data, while labeling is the act of applying this designation visibly, such as tags or digital annotations. Marking aids in classification, and labeling communicates the data’s security requirements.
+
+15. Explain the concept of Data Remanence.
+	Data remanence refers to residual information left on storage media after attempted deletion. Without proper erasure, this data can be recovered by unauthorized individuals. Physical destruction or secure overwriting methods are required to mitigate this risk.
+
+16. Name and explain at least 4 Data Destruction types.
+	Erasing involves using software tools to delete data, but it often leaves residual traces that can be recovered without difficulty. Overwriting replaces old data with new, often with random or null values, making unauthorized recovery much harder though not always perfect if sectors are skipped. Degaussing uses powerful magnetic fields to render data on magnetic storage unreadable, effectively destroying the media’s usability. Physical destruction is the most definitive method, ensuring data cannot be recovered by physically breaking the storage media into unrecognizable pieces.
+
+17. Explain the concept of Quality Control when working with Data.
+	Quality control ensures data accuracy, relevance, and reliability by embedding validation processes into its lifecycle. This minimizes errors and enhances decision-making, reflecting the organization’s commitment to data integrity.
+
+18. A healthcare organization is implementing a new electronic medical records system. The system stores sensitive patient data, and the organization must ensure proper classification and handling of this information to comply with privacy laws. As the data manager, explain the process of data classification the organization should follow, and discuss how the classification will influence the security controls applied to the system.
+	The organization should start by identifying all types of data within the records system and assigning ownership. Next, it should classify the data based on sensitivity and regulatory requirements, such as categorizing patient records as highly confidential. These classifications determine security controls, like encrypting sensitive data, restricting access, and implementing audit trails, ensuring compliance with privacy laws.
+
+19. A multinational corporation is undergoing a merger, and with it comes the integration of large amounts of customer data. They are concerned about how long they should retain the data, and the potential risks associated with outdated or obsolete information. Analyze how data retention policies should be established during this transition and discuss the concept of data longevity in this context.
+	During the merger, retention policies should be developed by evaluating regulatory requirements, the business value of the data, and potential legal risks. Data longevity ensures obsolete or outdated data is securely disposed of while retaining essential records for compliance and operational continuity. Policies should prioritize safeguarding sensitive information to prevent breaches.
+
+20. A financial services company stores highly sensitive financial data that must be always protected. Explain how the company should approach the security of data at rest, data in transit, and data in use, providing specific controls and examples for each state of data.
+	For **data at rest**, encryption and access control ensure stored data is safe from theft. For **data in transit**, SSL/TLS protects data moving between systems, preventing interception. For **data in use**, techniques like memory encryption or secure enclaves shield data in volatile memory from attacks.
+
+21. A tech firm is disposing of old servers that contain confidential company information. However, they want to ensure that all sensitive data is irreversibly destroyed before disposal. Evaluate the different data destruction methods available and recommend the most suitable approach for this company, considering the sensitivity of the data and the cost of destruction.
+	Physical destruction is recommended for servers storing highly confidential data as it ensures irrecoverability. Degaussing can be an alternative for magnetic drives, while encryption combined with key destruction provides cost-effective protection for less sensitive data.
+
+22. A private company is facing an audit to ensure that their data collection practices comply with the latest regulations, such as GDPR. The company is struggling to understand the roles of data controllers, processors, and collectors. As a compliance officer, explain these roles and how the company should organize its data management practices to remain compliant.
+	Data collectors gather information and define initial purposes for processing. Data controllers dictate how and why data is processed, ensuring compliance. Data processors act on instructions from controllers to handle data securely. To comply, the company must document roles, implement policies aligning with GDPR, and train staff to fulfill responsibilities accurately.
